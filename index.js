@@ -5,3 +5,11 @@ function laCajaDePandora(numero) {
     return numero.toString(16);
   }
 }
+
+function abril() {
+  return (info = {
+    nombre: "Abril",
+    edad: "No relevante",
+    nacionalidad: "Boliviana",
+  });
+}
