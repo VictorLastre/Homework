@@ -6,7 +6,19 @@ function convertirNumero(num) {
   }
 }
 
-// Ejemplo de uso
 let numero = 15;
 let resultado = convertirNumero(numero);
 console.log(resultado);
+
+
+function obtenerInformacionPersonal() {
+  return {
+      nombre: "Victor Lastre",
+      edad: "38",
+      nacionalidad: "Argentino"
+  };
+}
+
+
+let informacion = obtenerInformacionPersonal();
+console.log(informacion);
